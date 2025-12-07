@@ -36,7 +36,7 @@ const Pricing = () => {
                         <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-xl rounded-tr-xl">POPULAR</div>
                         <h2 className="text-2xl font-bold text-primary mb-2">PLATINUM Plan</h2>
                         <p className="text-slate-500 mb-6">Paket Lengkap Premium</p>
-                        <div className="text-4xl font-bold text-slate-900 mb-8">Rp 25k <span className="text-sm font-normal text-slate-500">/ bulan</span></div>
+                        <div className="text-4xl font-bold text-slate-900 mb-8">Rp 25k <span className="text-sm font-normal text-slate-500">/ sekali bayar</span></div>
 
                         <ul className="space-y-4 mb-8">
                             <li className="flex gap-3 text-slate-700"><Check className="text-primary shrink-0" /> <strong>Setoran Organik & Anorganik</strong></li>

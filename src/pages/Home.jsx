@@ -4,7 +4,7 @@ import {
     ArrowRight, Download, Users, Lightbulb,
     Trash2, TrendingUp, RefreshCw, ShieldCheck,
     Wallet, Heart, ShoppingBag, Sprout, Home as HomeIcon,
-    Gift
+    Gift, Check, X
 } from 'lucide-react';
 import Button from '../components/common/Button';
 import Card from '../components/common/Card';
@@ -153,38 +153,48 @@ const Home = () => {
             </SectionWrapper>
 
             {/* Before / After */}
-            <SectionWrapper className="bg-primary-50/50 rounded-3xl my-8">
-                <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <span className="text-primary font-bold tracking-wider text-sm uppercase mb-2 block">Transformasi</span>
-                        <h2 className="text-3xl font-bold text-slate-900 mb-6">Sebelum vs Sesudah Mulungs</h2>
-                        <div className="space-y-6">
-                            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-red-400">
-                                <h4 className="font-bold text-slate-800 mb-2">Sebelum</h4>
-                                <p className="text-slate-600 text-sm">Sampah menumpuk, TPA penuh, tidak ada nilai ekonomi, biaya kesehatan tinggi.</p>
+            <SectionWrapper className="pt-20 pb-32">
+                <div className="text-center mb-16">
+                    <span className="text-primary font-bold tracking-wider text-sm uppercase mb-2 block">Transformasi</span>
+                    <h2 className="text-3xl font-bold text-slate-900">Dampak Nyata Mulungs</h2>
+                </div>
+
+                <div className="relative max-w-5xl mx-auto">
+                    <div className="grid md:grid-cols-2 gap-8 md:gap-20">
+                        {/* Before Card */}
+                        <Card className="p-8 border-2 border-slate-200 border-t-red-400 relative bg-white/50 hover:bg-white transition-colors">
+                            <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-red-100 p-4 rounded-full text-red-500 shadow-sm">
+                                <Trash2 size={32} />
                             </div>
-                            <div className="flex justify-center md:justify-start">
-                                <div className="bg-primary/10 p-2 rounded-full text-primary rotate-90 md:rotate-0"><ArrowRight /></div>
+                            <h3 className="text-xl font-bold text-center text-slate-800 mt-8 mb-6">Sebelum Mulungs</h3>
+                            <ul className="space-y-4">
+                                <li className="flex gap-3 text-slate-600 bg-red-50/50 p-3 rounded-lg"><X className="shrink-0 text-red-400" size={20} /> Sampah menumpuk & bau</li>
+                                <li className="flex gap-3 text-slate-600 bg-red-50/50 p-3 rounded-lg"><X className="shrink-0 text-red-400" size={20} /> Biaya angkut mahal</li>
+                                <li className="flex gap-3 text-slate-600 bg-red-50/50 p-3 rounded-lg"><X className="shrink-0 text-red-400" size={20} /> Tidak ada nilai ekonomi</li>
+                                <li className="flex gap-3 text-slate-600 bg-red-50/50 p-3 rounded-lg"><X className="shrink-0 text-red-400" size={20} /> Resiko penyakit tinggi</li>
+                            </ul>
+                        </Card>
+
+                        {/* After Card */}
+                        <Card className="p-8 border-2 border-primary/20 border-t-primary relative shadow-xl shadow-primary/10">
+                            <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-primary p-4 rounded-full text-white shadow-lg shadow-primary/30">
+                                <Sprout size={32} />
                             </div>
-                            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary">
-                                <h4 className="font-bold text-slate-800 mb-2">Sesudah</h4>
-                                <p className="text-slate-600 text-sm">Lingkungan bersih, nilai ekonomi sampah kembali berupa pangan bergizi, masyarakat sehat.</p>
-                            </div>
-                        </div>
+                            <h3 className="text-xl font-bold text-center text-slate-800 mt-8 mb-6">Sesudah Mulungs</h3>
+                            <ul className="space-y-4">
+                                <li className="flex gap-3 text-slate-700 bg-primary-50 p-3 rounded-lg"><Check className="shrink-0 text-primary" size={20} /> Lingkungan bersih & sehat</li>
+                                <li className="flex gap-3 text-slate-700 bg-primary-50 p-3 rounded-lg"><Check className="shrink-0 text-primary" size={20} /> Sampah dijemput gratis</li>
+                                <li className="flex gap-3 text-slate-700 bg-primary-50 p-3 rounded-lg"><Check className="shrink-0 text-primary" size={20} /> Jadi tabungan uang</li>
+                                <li className="flex gap-3 text-slate-700 bg-primary-50 p-3 rounded-lg"><Check className="shrink-0 text-primary" size={20} /> Bonus pangan bergizi</li>
+                            </ul>
+                        </Card>
                     </div>
-                    <div className="hidden md:block">
-                        {/* Visual representation could go here, for now using a clean graphic placeholder */}
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="bg-white p-4 rounded-2xl shadow-lg opacity-60 scale-95 translate-y-4">
-                                <div className="h-32 bg-slate-200 rounded-xl mb-4"></div>
-                                <div className="h-4 w-3/4 bg-slate-200 rounded"></div>
-                            </div>
-                            <div className="bg-white p-4 rounded-2xl shadow-xl border-2 border-primary z-10">
-                                <div className="h-32 bg-primary-100 rounded-xl mb-4 flex items-center justify-center text-primary">
-                                    <Sprout size={48} />
-                                </div>
-                                <div className="h-4 w-3/4 bg-primary-100 rounded"></div>
-                                <div className="h-4 w-1/2 bg-primary-100 rounded mt-2"></div>
+
+                    {/* Center Connector */}
+                    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center z-10">
+                        <div className="bg-white p-2 rounded-full shadow-lg">
+                            <div className="bg-gradient-to-r from-red-400 to-primary text-white p-3 rounded-full animate-pulse">
+                                <ArrowRight size={24} />
                             </div>
                         </div>
                     </div>
