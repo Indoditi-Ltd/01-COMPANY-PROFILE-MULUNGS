@@ -29,7 +29,6 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li><Link to="/about" className="hover:text-primary transition-colors">About Us</Link></li>
                             <li><Link to="/solutions" className="hover:text-primary transition-colors">Our Solution</Link></li>
-                            <li><Link to="/market" className="hover:text-primary transition-colors">Market Opportunity</Link></li>
                             <li><Link to="/pricing" className="hover:text-primary transition-colors">Pricing</Link></li>
                             <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
                         </ul>
@@ -41,15 +40,15 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <MapPin className="shrink-0 text-primary" size={20} />
-                                <span>Jl. Example No. 123, Jakarta, Indonesia</span>
+                                <span>Jl. Sepakat 2, Gg. Racana Untan, Bansir Laut, Pontianak Tenggara, Kota Pontianak</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="shrink-0 text-primary" size={20} />
-                                <a href="mailto:hello@mulungs.id" className="hover:text-primary">hello@mulungs.id</a>
+                                <a href="mailto:support@mulungs.com" className="hover:text-primary">support@mulungs.com</a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="shrink-0 text-primary" size={20} />
-                                <a href="tel:+6281234567890" className="hover:text-primary">+62 812 3456 7890</a>
+                                <a href="tel:+6285186821926" className="hover:text-primary">+62 851 8682 1926</a>
                             </li>
                         </ul>
                     </div>

@@ -20,21 +20,21 @@ const Contact = () => {
                             <div className="bg-primary-50 p-3 rounded-full text-primary"><MapPin /></div>
                             <div>
                                 <h3 className="font-bold text-lg text-slate-800">Kantor Pusat</h3>
-                                <p className="text-slate-600">Jl. Mulungs Ecosystem No. 88, Jakarta Selatan, Indonesia</p>
+                                <p className="text-slate-600">Jl. Sepakat 2, Gg. Racana Untan, Bansir Laut, Pontianak Tenggara, Kota Pontianak</p>
                             </div>
                         </Card>
                         <Card className="p-6 flex items-center gap-4">
                             <div className="bg-primary-50 p-3 rounded-full text-primary"><Mail /></div>
                             <div>
                                 <h3 className="font-bold text-lg text-slate-800">Email</h3>
-                                <p className="text-slate-600">hello@mulungs.id</p>
+                                <p className="text-slate-600">support@mulungs.com</p>
                             </div>
                         </Card>
                         <Card className="p-6 flex items-center gap-4">
                             <div className="bg-primary-50 p-3 rounded-full text-primary"><Phone /></div>
                             <div>
                                 <h3 className="font-bold text-lg text-slate-800">Telepon</h3>
-                                <p className="text-slate-600">+62 812 3456 7890</p>
+                                <p className="text-slate-600">+6285186821926</p>
                             </div>
                         </Card>
                     </div>
