@@ -39,7 +39,7 @@ const Home = () => {
                                 Super App <span className="text-primary">Bank Mulungs</span> Solusi Sampah & Pangan.
                             </h1>
                             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                                Mewujudkan gizi dan kesehatan setara untuk setiap rumah tangga dengan pengelolaan sampah terpadu.
+                                Ekosistem pengelolahan sampah lebih bertanggung jawab, untuk Kesehatan dan Kemandirian Ekonomi Keluarga yang lebih setara.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Button variant="primary" className="flex items-center gap-2">
