@@ -115,8 +115,8 @@ const Home = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
                             {[
-                                { step: "1", title: "Bank Pembantu", icon: HomeIcon, desc: "Pengumpulan awal dari rumah tangga" },
-                                { step: "2", title: "Bank Utama", icon: Users, desc: "Sentra pengelolaan tingkat wilayah" },
+                                { step: "1", title: "Gerbage Station", icon: HomeIcon, desc: "Merchant Rumah Pilah Sementara ( M-RPS )" },
+                                { step: "2", title: "Bank Sentra Utama", icon: Users, desc: "Pusat Pengolahan Sampah Terpadu" },
                                 { step: "3", title: "Kawasan Pengolahan", icon: RefreshCw, desc: "Integrasi Contract Farming Multi Sektoral" },
                                 { step: "4", title: "Manfaat Kembali", icon: Gift, desc: "Nilai ekonomi & Pangan untuk keluarga" },
                             ].map((item, idx) => (
