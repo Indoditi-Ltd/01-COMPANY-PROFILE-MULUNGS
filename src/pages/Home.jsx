@@ -36,7 +36,7 @@ const Home = () => {
                             transition={{ duration: 0.6 }}
                         >
                             <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                                Super App <span className="text-primary">Bank Sampah</span> Solusi Ketahanan Pangan.
+                                Super App <span className="text-primary">Bank Mulungs</span> Solusi Sampah & Pangan.
                             </h1>
                             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                                 Mewujudkan gizi dan kesehatan setara untuk setiap rumah tangga dengan pengelolaan sampah terpadu.
