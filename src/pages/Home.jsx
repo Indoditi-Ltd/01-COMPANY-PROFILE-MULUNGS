@@ -14,7 +14,7 @@ import heroImage from '../assets/hero-illustration.png';
 const Home = () => {
     const products = [
         { title: "Ngulang", icon: RefreshCw, desc: "Produk isi ulang kebutuhan rumah tangga.", color: "text-blue-500", bg: "bg-blue-50" },
-        { title: "Investasi", icon: TrendingUp, desc: "Investasi jangka panjang bersama petani.", color: "text-green-500", bg: "bg-green-50" },
+        { title: "Investasi", icon: TrendingUp, desc: "Pilihan Investasi Taerbaik &  Berdampak.", color: "text-green-500", bg: "bg-green-50" },
         { title: "Asuransi BarengJaga", icon: ShieldCheck, desc: "Asuransi keluarga yang bisa diwariskan.", color: "text-indigo-500", bg: "bg-indigo-50" },
         { title: "Layanan Digital", icon: Wallet, desc: "PPOB, kebutuhan pribadi, dan uang tunai.", color: "text-purple-500", bg: "bg-purple-50" },
         { title: "Galang Bareng", icon: Heart, desc: "Donasi & aksi sosial cepat tanggap.", color: "text-pink-500", bg: "bg-pink-50" },
