@@ -9,6 +9,7 @@ import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import Partnership from './pages/Partnership';
 import Team from './pages/Team';
+import VerificationSuccess from './pages/VerificationSuccess';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/verification-success" element={<VerificationSuccess />} />
         </Routes>
       </Layout>
     </Router>
