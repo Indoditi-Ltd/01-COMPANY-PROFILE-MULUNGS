@@ -45,7 +45,7 @@ const Home = () => {
                                 <Button variant="primary" className="flex items-center gap-2" href="https://play.google.com/store/apps/details?id=com.indoditi.mulungs_user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
                                     <Download size={20} /> Download App
                                 </Button>
-                                <Button variant="secondary" className="flex items-center gap-2" href="https://wa.me/message/WL4BQXRI33LKG1" target="_blank" rel="noopener noreferrer">
+                                <Button variant="secondary" className="flex items-center gap-2" href="https://chat.whatsapp.com/H7E2bRaCCUJDU3g7hhKs7P" target="_blank" rel="noopener noreferrer">
                                     <Users size={20} /> Gabung Mitra
                                 </Button>
                             </div>
