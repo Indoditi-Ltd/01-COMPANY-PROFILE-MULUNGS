@@ -42,10 +42,10 @@ const Home = () => {
                                 Ekosistem pengelolahan sampah lebih bertanggung jawab, untuk Kesehatan dan Kemandirian Ekonomi Keluarga yang lebih setara.
                             </p>
                             <div className="flex flex-wrap gap-4">
-                                <Button variant="primary" className="flex items-center gap-2">
+                                <Button variant="primary" className="flex items-center gap-2" href="https://play.google.com/store/apps/details?id=com.indoditi.mulungs_user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
                                     <Download size={20} /> Download App
                                 </Button>
-                                <Button variant="secondary" className="flex items-center gap-2">
+                                <Button variant="secondary" className="flex items-center gap-2" href="https://wa.me/message/WL4BQXRI33LKG1" target="_blank" rel="noopener noreferrer">
                                     <Users size={20} /> Gabung Mitra
                                 </Button>
                             </div>
@@ -209,7 +209,7 @@ const Home = () => {
                         Bergabunglah dengan ribuan rumah tangga lainnya untuk lingkungan yang lebih bersih dan masa depan yang lebih sehat.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button className="bg-white text-primary font-bold py-4 px-8 rounded-xl hover:bg-slate-100 transition-colors shadow-lg">Download Sekarang</button>
+                        <a href="https://play.google.com/store/apps/details?id=com.indoditi.mulungs_user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" className="bg-white text-primary font-bold py-4 px-8 rounded-xl hover:bg-slate-100 transition-colors shadow-lg">Download Sekarang</a>
                         <button className="bg-primary-600 text-white border border-primary-400 font-bold py-4 px-8 rounded-xl hover:bg-primary-700 transition-colors">Pelajari Lebih Lanjut</button>
                     </div>
                 </div>

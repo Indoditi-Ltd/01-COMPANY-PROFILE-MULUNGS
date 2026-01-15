@@ -38,7 +38,7 @@ const Navbar = () => {
                                 {link.name}
                             </NavLink>
                         ))}
-                        <Button variant="primary" className="py-2 px-4 shadow-none">Download App</Button>
+                        <Button variant="primary" className="py-2 px-4 shadow-none" href="https://play.google.com/store/apps/details?id=com.indoditi.mulungs_user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">Download App</Button>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -71,7 +71,7 @@ const Navbar = () => {
                             </NavLink>
                         ))}
                         <div className="pt-4">
-                            <Button variant="primary" className="w-full">Download App</Button>
+                            <Button variant="primary" className="w-full" href="https://play.google.com/store/apps/details?id=com.indoditi.mulungs_user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">Download App</Button>
                         </div>
                     </div>
                 </div>
